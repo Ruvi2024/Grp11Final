@@ -1,0 +1,348 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ceylon Taste</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+     <style>
+        ul {
+            list-style-type: none; /* Removes bullets */
+            padding: 0; /* Removes default padding */
+            margin: 0; /* Removes default margin */
+        }
+        li {
+            margin-bottom: 10px; /* Optional: Adds spacing between list items */
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+              <a href="#">Ceylon Taste<br>セイロンテースト<br>සිලෝන් ටේස්ට් </a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#home-about">about</a>
+            <a href="#gallery">Menu</a>
+            <a href="#feedback">Reviews</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <a class="contact-btn" href="https://www.facebook.com/profile.php?id=61559816194030">Facebook</a>
+        </div>
+
+    </header>
+
+
+
+
+
+    <div class="home">
+        <div class="main-home">
+            <div class="home-inner-content">
+                <div class="home-image">
+                    <img src="home.jpg" alt="">
+                </div>
+            </div>
+            <div class="home-inner-content">
+                <div class="home-text-content">
+                    <h1>Contact us for the best food</h1>
+                    <p>Experience culinary excellence with our diverse menu of delectable dishes. Reach out to us for an unforgettable dining experience. Your satisfaction is our top priority!</p>
+                    <p>Call Now!</p>
+                    <a href="#">090-5715-2034</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section class="home-about" id="home-about">
+        <div class="about">
+            <div class="main-about">
+                <div class="about-content">
+                    <div class="about-inner-content">
+                        <img class="myimageabout" src="b.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="about-content">
+                    <div class="about-inner-content">
+                        <div class="about-text-content">
+                            <h1>About us</h1>
+                            <p>Indulge in delicious cuisine at Ceylon Taste, where we offer a diverse menu of fresh, high-quality dishes. Our cozy atmosphere and friendly staff make every visit special. Whether you're looking for a quick bite, a family dinner, or a place to celebrate a special occasion, we have something for everyone.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="quality">
+        <div class="main-quality">
+            <div class="main-inner-quality">
+                <div class="quality-content">
+                    <h1>Our food quality</h1>
+                    <p>At Ceylon Taste, we pride ourselves on delivering exceptional food quality. Our dishes are crafted with the freshest ingredients to ensure every bite is delicious. Experience a blend of flavors and a commitment to excellence that sets us apart. Explore our menu, make a reservation, and discover why Ceylon Taste is the perfect choice for your next meal. We look forward to serving you!</p>
+                </div>
+            </div>
+            <div class="main-inner-quality">
+                <div class="quality-content quality-image">
+                    <img src="c.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+	
+ <section class="gallery" id="gallery">
+        <div class="gallery">
+            <h1>Menu</h1>
+            <div class="main-gallery">
+                <div class="inner-gallery">
+                    <div class="gallery-image">
+			<h2>Rice</h2>
+                        <img src="g1.jpg" alt="">
+                        <ul class="hover-list">
+                            <li>Fried Rice ¥1200</li>
+                            <li>Biryani ¥1200</li>
+                            <li>Nasi Goreng ¥1200</li>
+			     <li>Plain Rice ¥700</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner-gallery">
+                    <div class="gallery-image">
+			<h2>Kottu</h2>
+                        <img src="g2.jpeg" alt="">
+                        <ul class="hover-list">
+                            <li> Chicken Kottu ¥1000</li>
+			    <li>Sea Food Kottu ¥1000</li>
+			    <li>Cheese Kottu ¥1200</li>
+			    <li> Egg Kottu ¥1000</li>
+					
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner-gallery">
+                    <div class="gallery-image">
+			<h2>Sea Food</h2>
+                        <img src="g3.jpg" alt="">
+                        <ul class="hover-list">
+                            <li> Cuttle fish Curry ¥1000</li>
+			    <li>Prawn Curry ¥1000</li>
+			    <li>Fish Masala Curry ¥1200</li>
+		            <li> Fish Fried ¥1000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner-gallery">
+                    <div class="gallery-image">
+			<h2>Curry</h2>
+                        <img src="g4.jpg" alt="">
+			<ul class="hover-list">
+                            <li>Dhal Curry ¥800</li>
+                            <li>Potato Curry ¥800</li>
+                            <li>Chicken Curry ¥1000</li>
+			    <li>Mixed Vegetables ¥1000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner-gallery">
+                    <div class="gallery-image">
+			<h2>Snacks</h2>
+                        <img src="g5.jpg" alt="">
+			<ul class="hover-list">
+                            <li>Fish Cutlet ¥100</li>
+                            <li>Egg Roll ¥100</li>
+                            <li>Samosa ¥100</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inner-gallery">
+                    <div class="gallery-image">
+			<h2>Dinner</h2>
+                        <img src="g6.jpg" alt="">
+			<ul class="hover-list">
+                            <li>Hoppers ¥200</li>
+                            <li>Roti ¥200</li>
+                            <li>string Hoppers ¥500</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+
+
+
+<section class="feedback" id="feedback">
+    <h1>Reviews</h1>
+	<a href="https://www.google.com/search?sca_esv=2a19a3414e05e997&sca_upv=1&sxsrf=ADLYWIKWhDS1VmTYfMahmx_keMbnQNJhWw%3A1721675429621&q=Sestra&stick=H4sIAAAAAAAAAONgU1I1qDBOTDU2s7Q0N080MzW1TEmxAgqlmRobmySapSWbWVgaG1ouYmULTi0uKUoEAIi_uA4yAAAA&mat=CeeZ_K9IKrUk&ved=2ahUKEwjOuJrjrLuHAxULh1YBHSzkCKUQrMcEegQIHhAD#mpd=~2645066847828613607/customers/reviews" class="see-all-reviews">See All Reviews</a>
+
+    <div class="feedbacks"> 
+        <div class="polaroid">
+            <input type="checkbox" id="flip1" class="flip-checkbox">
+            <div class="card">
+                <div class="front">
+                    <img src="image1.jpg" alt="Feedback 1">
+                    <div class="stars">★★★★★</div>
+                    <div class="summary">Tony Stark</div>
+                    <label for="flip1" class="see-more">See More</label>
+                </div>
+                <div class="back">
+                    <p>"A Hidden Gem!" <br> <br>
+"I had a fantastic dining experience at this cozy restaurant. The ambiance was perfect for a relaxed evening, and the service was top-notch. The food was delicious, especially the chef's special risotto. Highly recommended!"</p>
+                    <label for="flip1" class="see-less">See Less</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <input type="checkbox" id="flip2" class="flip-checkbox">
+            <div class="card">
+                <div class="front">
+                    <img src="image2.jpg" alt="Feedback 2">
+                    <div class="stars">★★★★★</div>
+                    <div class="summary">Thor Odinson</div>
+                    <label for="flip2" class="see-more">See More</label>
+                </div>
+                <div class="back">
+                    <p>"Exceptional Dining Experience!" <br> <br>
+
+"From the moment we walked in, the ambiance set the tone for an amazing evening. The service was impeccable, and the staff was incredibly attentive without being intrusive. The food was absolutely delicious – every dish was a masterpiece of flavors and presentation. Highly recommend the chef's special. Will definitely be returning!"</p>
+                    <label for="flip2" class="see-less">See Less</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <input type="checkbox" id="flip3" class="flip-checkbox">
+            <div class="card">
+                <div class="front">
+                    <img src="image3.jpg" alt="Feedback 3">
+                    <div class="stars">★★★★★</div>
+                    <div class="summary">T'challa</div>
+                    <label for="flip3" class="see-more">See More</label>
+                </div>
+                <div class="back">
+                    <p>"Perfect Dinner Spot!" <br> <br>
+
+"What a delightful surprise! The restaurant's cozy atmosphere was perfect for a relaxed dinner. The food was outstanding – every bite was bursting with flavor. The service was top-notch, with the staff going out of their way to make our evening special. I can't wait to come back and try more dishes!"</p>
+                    <label for="flip3" class="see-less">See Less</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="polaroid">
+            <input type="checkbox" id="flip4" class="flip-checkbox">
+            <div class="card">
+                <div class="front">
+                    <img src="image4.jpg" alt="Feedback 4">
+                    <div class="stars">★★★★★</div>
+                    <div class="summary">Peter Parker</div>
+                    <label for="flip4" class="see-more">See More</label>
+                </div>
+                <div class="back">
+                    <p>"Flawless Dining Experience!" <br> <br>
+
+"This place is a true gem. The food was exquisite, with a perfect balance of flavors in every dish. The service was exceptional; our server was attentive and genuinely cared about our dining experience. The atmosphere was chic yet comfortable. This is definitely my new favorite restaurant!"</p>
+                    <label for="flip4" class="see-less">See Less</label>
+                </div>
+            </div>
+        </div>
+
+	 <div class="polaroid">
+            <input type="checkbox" id="flip5" class="flip-checkbox">
+            <div class="card">
+                <div class="front">
+                    <img src="image5.jpg" alt="Feedback 5">
+                    <div class="stars">★★★★★</div>
+                    <div class="summary">Natasha Ramanoff</div>
+                    <label for="flip5" class="see-more">See More</label>
+                </div>
+                <div class="back">
+                    <p>"An Unforgettable Meal!" <br> <br>
+
+"Our experience here was nothing short of fantastic. The restaurant's ambiance was elegant and inviting, and the food was out of this world. Each course was beautifully presented and tasted even better than it looked. The staff were courteous and professional. Highly recommend for a special night out!"</p>
+                    <label for="flip5" class="see-less">See Less</label>
+                </div>
+            </div>
+        </div>
+
+	 <div class="polaroid">
+            <input type="checkbox" id="flip6" class="flip-checkbox">
+            <div class="card">
+                <div class="front">
+                    <img src="image6.jpeg" alt="Feedback 6">
+                    <div class="stars">★★★★★</div>
+                    <div class="summary">Steve Rogers</div>
+                    <label for="flip6" class="see-more">See More</label>
+                </div>
+                <div class="back">
+                    <p>"Five Stars All the Way!" <br> <br>
+
+"Everything about this restaurant was perfect – from the warm welcome to the impeccable service and the stunning presentation of the dishes. The flavors were rich and inventive, making each bite a new delight. The attention to detail was evident in every aspect of the dining experience. I’ll definitely be spreading the word about this place!"</p>
+                    <label for="flip6" class="see-less">See Less</label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="kyoto-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13070.828175646113!2d135.73040135541996!3d35.0140379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600107d40a2b9b0b%3A0x106b8759906a2f2f!2sNij%C5%8D%20Castle!5e0!3m2!1sen!2sjp!4v1721467220539!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer class="footer">
+        
+        <nav class="footer-navbar">
+            <a href="#">home</a>
+            <a href="#home-about">about</a>
+            <a href="#gallery">Menu</a>
+           <a href="#feedback">Reviews</a>
+        </nav>
+<br>
+<div class="main-footer">
+            <p>All Rights Reserved &copy;</p>
+        </div>
+    </footer>
+
+    <script src="" async defer></script>
+</body>
+</html>
